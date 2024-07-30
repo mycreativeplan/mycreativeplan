@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>My Creative Plan</title>
+  <link rel="icon" href="Images/favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Cookiebanner Google Consent Mode V2 Scripts -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_MEASUREMENT_ID"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied'
+      });
+
+      function acceptCookies() {
+          gtag('consent', 'update', {
+            'ad_storage': 'granted',
+            'analytics_storage': 'granted'
+          });
+          document.getElementById('cookie-banner').style.display = 'none';
+      }
+
+      function rejectCookies() {
+          document.getElementById('cookie-banner').style.display = 'none';
+      }
+  </script>
+  <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/c4d8f87563f07c057248083d8defd2aa.js"></script>
+</head>
+
+<body>
+
+  <!-- Cookiebanner -->
+  <div id="cookie-banner" class="cookie-banner">
+    <p>Deze website maakt gebruik van cookies om uw ervaring te verbeteren. 
+      <br>
+      Door verder te gaan, gaat u akkoord met het gebruik van cookies.
+        <a href="/privacy-policy">Learn more</a>.
+    </p>
+    <div class="buttons">
+        <button onclick="acceptCookies()">Accept</button>
+        <button onclick="rejectCookies()">Reject</button>
+    </div>
+  </div>
+
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg">
+
+          <a class="navbar-brand" href="index.html"><img class="navbarLogo" src="images/MyCreativePlan_Navbar_Logo.png" alt="navbar-logo"></a>
+  
+          <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+  
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#onzediensten">onze diensten</a>
+              </li>
+            </ul>
+  
+          </div>
+  </nav>
+
+  <!-- header banner -->
+  <img class="image-header" src="images/homepage_banner_header_V01.jpg" alt="">
+  <br>
+  <br>
+
+  <!-- Scroll indicator -->
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>  
+
+  <!-- intro-Header -->
+  <br>
+  <br>
+  <section class="intro-Header">
+      <div class="">
+        <br>
+        <br>
+        <h1 class="big-heading">My Creative Plan</h1>
+        <p class="p-intro">Welkom bij ‘My Creative Plan’. 
+          Als allround marketing bureau gaan we innovatief & probleemoplossend aan de slag in een veranderende digitale markt. 
+          <br>
+          <br>
+          ‘My Creative Plan’ zorgt voor jouw online verhaal van A tot Z! 
+          Van de opbouw of optimalisatie van je website tot de online vindbaarheid & uitwerking van jouw communicatieplan. 
+          Actief bijdragen aan projecten die nood hebben aan creatieve input is onze professionele missie.</p>
+          <br>
+          <button onclick="window.location.href='#contact'" type="button" class="btn btn-lg">contact</button>
+          <br>
+          <br>
+      </div>
+  </section>
+  <br>
+  <br>
+
+  <!-- Services -->
+  <section>
+    <div class="services_container">
+      <div class="services_card">
+        <div class="services_box">
+          <div class="services_content">
+            <h2>01</h2>
+            <h3>Webdesign</h3>
+            <p>Nood aan een nieuwe of meer gebruiksvriendelijke website? 'My Creative Plan' werkt aan jouw website van A tot Z!</p>
+            <img class="icons" src="images/icons_web-design.png" alt=""><br><br>
+            <a href="#webdesign">Read More</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="services_card">
+        <div class="services_box">
+          <div class="services_content">
+            <h2>02</h2>
+            <h3>Online visibility</h3>
+            <p>'My Creative Plan' zorgt dat jouw website een succes zal worden dankzij SEO, SEA, online advertenties en de nodige analytics!</p>
+            <img class="icons" src="images/icons_seo.png" alt=""><br><br>
+            <a href="#onlinevisibility">Read More</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="services_card">
+        <div class="services_box">
+          <div class="services_content">
+            <h2>03</h2>
+            <h3>Social media</h3>
+            <p>Bij ons is jouw sociale media beheer in professionele handen zodat jij deze met een gerust hart kan uitbesteden.</p>
+            <img class="icons" src="images/icons_social-media.png" alt=""><br><br>
+            <a href="#socialmedia">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- Ontdek onze diensten -->
+  <img class="image-footer" src="images/Footer_Image_SocialIcons.png" alt="">
+
+
+  <a name="onzediensten"></a> 
+  <section class="">
+    <div class="" style="background-color: black;">
+  
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <h2 style="color: #fff;">Ontdek onze diensten</h2>
+      <br>
+      <p class="p_row" style="color: #fff;">
+      Wilt u uw online aanwezigheid vergroten? Wilt u een website die esthetisch en functioneel is? Wil je de SEO-resultaten van je website verbeteren?
+      Als bedrijf zijn wij gespecialiseerd in webdesign, sociale media, SEO en de optimalisatie van het digitale landschap. 
+      Onze kennis en ervaring met betrekking tot webdesign en digitale marketingtechnieken stellen ons in staat om uw website te ontwerpen en te bouwen die de behoeften van uw klanten voldoet.
+      <br>
+      <br>
+      Via sociale media kunnen we u helpen uw online aanwezigheid te vergroten. 
+      Door de juiste strategieën toe te passen op de juiste platformen, kunnen we helpen om de zichtbaarheid van uw merk te vergroten. 
+      Door relevante content te creëren en door gebruik te maken van SEO-strategieën, kunnen we ervoor zorgen dat uw content beter wordt gevonden in zoekmachines.
+      <br>
+      <br>
+      We kunnen u ook helpen bij het optimaliseren van het digitale landschap door technologische innovaties toe te passen die gebruiksvriendelijk zijn en die een betere gebruikerservaring bieden. We zullen ook helpen bij het analyseren van gegevens om te begrijpen hoe de gebruikers de website gebruiken en hoe we deze kunnen verbeteren.
+      <br>  
+      <br>
+      Laat ons u helpen bij het verwezenlijken van uw online doelstellingen! Neem vandaag nog contact met ons op om te zien wat we voor u kunnen doen.
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+        </p>
+    </div>
+
+    <img class="image-footer" src="images/Footer_Image_SocialIcons_UpsideDown.png" alt="">
+  </section> 
+
+  <!-- Webdesign -->
+  <a name="webdesign"></a>
+  <section>
+    <div class="row">
+      <div class="col-lg-6" style="padding-left: 6.5%;">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3>Webdesign</h3>
+        <br>
+        <p>
+          Stap in de wereld van doelgericht webdesign, waar wij als webdesigners uw visie tot leven brengen met grondige planning, 
+          verbluffend ontwerp, technische perfectie en een vlekkeloze lancering. Van strategie tot uitvoering, 
+          wij staan klaar om uw online aanwezigheid te optimaliseren en te laten schitteren.
+        </p>
+        <br>
+        <br>
+        <h4>Hoe gaan we te werk?</h4>
+        <p>Onze customer journey wordt onderverdeeld in 4 stappen:</p>
+        <hr style="border: 2px solid black; width: 50%;">
+        <div class="text-container" id="text-container2">
+            <h4 style="color: #00fff0;">Planning</h4>
+            <p>Dit is de eerste en cruciale stap waarbij de doelstellingen van de website worden bepaald. Er wordt onderzoek gedaan naar de doelgroep, de concurrentie en de inhoud die nodig is. Het maken van een sitemap en wireframes helpt bij het structureren van de website.</p>
+        </div>
+        <div class="text-container" id="text-container3" style="display: none;">
+            <h4 style="color: #00fff0;">Design</h4>
+            <p>In deze fase wordt het visuele aspect van de website ontwikkeld. Webdesigners maken schetsen en prototypes die de lay-out, kleuren, typografie en andere grafische elementen vastleggen. Hierbij wordt rekening gehouden met de huisstijl van de opdrachtgever en de verwachtingen van de gebruikers.</p>
+        </div>
+        <div class="text-container" id="text-container4" style="display: none;">
+            <h4 style="color: #00fff0;">Development</h4>
+            <p>Hier wordt het ontwerp omgezet in een functionele website. Dit omvat codering in HTML, CSS, JavaScript en andere programmeertalen. De ontwikkelaars zorgen ervoor dat de website responsief is, wat betekent dat deze goed werkt op verschillende apparaten en schermformaten.</p>
+        </div>
+        <div class="text-container" id="text-container5" style="display: none;">
+            <h4 style="color: #00fff0;">Launch</h4>
+            <p>Voordat de website live gaat, wordt deze grondig getest op fouten en gebreken. Dit omvat functionele tests, compatibiliteitstests en gebruikersacceptatietests. Na eventuele aanpassingen wordt de website gelanceerd en beschikbaar gesteld aan het publiek.</p>
+        </div>
+        <br>
+        <br>
+          <button onclick="window.location.href='#contact'" type="button" class="btn btn-lg">contact</button>
+        <br>
+        <br>
+    </div>
+
+    <div class="col-lg-5" style="width: 100%; padding-left: 5%; text-align: center;">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 653">
+ 
+           <style type="text/css">
+             .st0 { fill: #000000; stroke: #00fff0; stroke-width: 5; stroke-miterlimit: 10; }
+             .text { font-family: Roboto, sans-serif; font-size: 30px; fill: white; }
+             
+             #Laag_2,
+             #Laag_3,
+             #Laag_4,
+             #Laag_5 {
+                 filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+             }
+ 
+             /* Voeg CSS-stijl toe voor hover-effect */
+             #Laag_2:hover .st0,
+             #Laag_3:hover .st0,
+             #Laag_4:hover .st0,
+             #Laag_5:hover .st0,
+             .active .st0 {
+                 fill: #00fff0 !important;
+                 stroke: #000000 !important;
+             }
+ 
+             #Laag_2:hover ~ text,
+             #Laag_3:hover ~ text,
+             #Laag_4:hover ~ text,
+             #Laag_5:hover ~ text,
+             .active ~ text {
+                 fill: #000000 !important;
+             }
+ 
+             /* Define CSS animation for rotating the strokes */
+             @keyframes rotateStrokes {
+                 0% {
+                     stroke-dashoffset: 0;
+                 }
+                 100% {
+                     stroke-dashoffset: 500; /* Adjust as needed to complete the rotation */
+                 }
+             }
+ 
+             /* Apply the animation to activated layers */
+             .active .st0 {
+                 animation: rotateStrokes 2s linear infinite;
+             }
+           </style>
+           <script>
+             function showTextContainer(containerId) {
+                 var containers = document.querySelectorAll('.text-container');
+                 containers.forEach(function (container) {
+                     container.style.display = 'none';
+                 });
+                 document.getElementById(containerId).style.display = 'block';
+             }
+ 
+             // Function to activate a specific layer by adding the 'active' class
+             function activateLayer(layerId) {
+                 var layer = document.getElementById(layerId);
+                 if (layer) {
+                     layer.classList.add('active');
+                 }
+             }
+ 
+             // Function to deactivate all layers by removing the 'active' class
+             function deactivateAllLayers() {
+                 var layers = document.querySelectorAll('.active');
+                 layers.forEach(function(layer) {
+                     layer.classList.remove('active');
+                 });
+             }
+ 
+             // Function to show a specific text container and rotate it
+             function showAndRotateTextContainer(containerId) {
+                 showTextContainer(containerId);
+                 rotateTextContainers(containerId);
+             }
+ 
+             // Function to rotate text containers every 5 seconds
+             function rotateTextContainers(containerId) {
+                 var textContainers = document.querySelectorAll('.text-container');
+                 textContainers.forEach(function(container) {
+                     if (container.id === containerId) {
+                         container.style.transform = 'rotate(0deg)';
+                     } else {
+                         container.style.transform = 'rotate(-90deg)';
+                     }
+                 });
+             }
+ 
+             // Set up the interval to activate a layer every 5 seconds
+             var layersToRotate = ['Laag_2', 'Laag_3', 'Laag_4', 'Laag_5'];
+             var currentIndex = 0;
+ 
+             function rotateLayers() {
+                 deactivateAllLayers(); // Deactivate all layers first
+                 activateLayer(layersToRotate[currentIndex]); // Activate the current layer
+                 showAndRotateTextContainer('text-container' + (currentIndex + 2)); // Show and rotate the corresponding text container
+                 currentIndex = (currentIndex + 1) % layersToRotate.length; // Rotate to the next layer
+             }
+ 
+           </script>
+           <g id="Laag_5" onmouseover="showAndRotateTextContainer('text-container5')">
+             <g>
+                   <g>
+                     <path class="st0" d="M181.7,355.1c12.5,57.8,63.8,101.3,125.4,101.4c2.2,0,4.4,0,6.5-0.1l-36.3,36.2l41.4,48
+                         c-3.9,0.2-7.8,0.3-11.8,0.3c-108.6-0.3-198-81.7-210.8-186.8l45.5-39.2L181.7,355.1z"/>
+                   </g>
+               </g>
+           </g>
+           <g id="Laag_4" onmouseover="showAndRotateTextContainer('text-container4')">
+               <g>
+                   <g>
+                     <path class="st0" d="M333.9,453.5C392.7,441.8,437,390,437.2,327.7c0-2.1,0-4.1-0.1-6.2l35.3,35.4l48.8-42.1
+                         c0.3,4.3,0.4,8.7,0.4,13.1c-0.3,108.7-81.9,198.2-187.1,210.9l-39.8-46.1L333.9,453.5z"/>
+                  </g>
+               </g>
+           </g>
+           <g id="Laag_3" onmouseover="showAndRotateTextContainer('text-container3')">
+               <g>
+                   <g>
+                     <path class="st0" d="M519.6,300.1l-46.9,40.4l-38.2-38.3c-11.6-59-63.5-103.5-125.9-103.7c-2.6,0-5.2,0.1-7.8,0.2l36.1-35.9
+                         l-41.6-48.2c4.4-0.3,8.9-0.4,13.4-0.4C417.2,114.5,506.4,195.5,519.6,300.1z"/>
+                   </g>
+               </g>
+           </g>
+           <g id="Laag_2" onmouseover="showAndRotateTextContainer('text-container2')">
+               <g>
+                   <g>
+                     <path class="st0" d="M280.8,200.6c-58,12.3-101.7,63.8-101.8,125.5c0,2.7,0.1,5.4,0.2,8.1l-36.8-37L95,338
+                         c-0.2-4-0.3-8.1-0.3-12.1c0.3-108.1,81.1-197.3,185.5-210.7l39.9,46.2L280.8,200.6z"/>
+                   </g>
+               </g>
+           </g>
+ 
+           <!-- Text placed in front of shapes with a 45 degree rotation -->
+           <text x="100" y="350" class="text" transform="rotate(45, 50, 440)">launch</text>
+           <text x="320" y="455" class="text" transform="rotate(-45, 400, 400)">development</text>
+           <text x="525" y="305" class="text" transform="rotate(45, 620, 50)">design</text>
+           <text x="270" y="205" class="text" transform="rotate(-45, 265, 360)">planning</text>
+ 
+         </svg>
+     </div>
+
+  </section>
+
+  <br>
+  <br>
+
+  <h4>Onze referenties</h4>
+  <br>
+  <p>Hier presenteren we met trots onze referenties en projecten. 
+    Elk ontwerp weerspiegelt onze passie voor creativiteit, innovatie en aandacht voor detail. 
+    Van elegante bedrijfswebsites tot dynamische e-commerce platforms, ons portfolio toont de diversiteit en kwaliteit van ons werk. 
+    Ontdek hoe we unieke digitale ervaringen creëren die perfect aansluiten bij de visie en doelen van onze klanten. 
+    Laat u inspireren door onze successen en ontdek de mogelijkheden voor uw eigen online aanwezigheid.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+  <section style="margin: 0 10% 0 10%;">
+    <div class="slideshow-container">
+      <div class="mySlides">
+        <a href="https://covaco.be/"><img src="Images/Referentie_Webdesign_Covaco.jpg" style="width:70%"></a>
+      </div>
+      
+      <div class="mySlides">
+        <a href="https://rpeeters.be/"><img src="Images/Referentie_Webdesign_PeetersSchrijnwerk.jpg" style="width:70%"></a>
+      </div>
+      
+      <div class="mySlides">
+        <a href="https://sgraevenhuys.be/"><img src="Images/Referentie_Webdesign_SGraevenhuys.jpg" style="width:70%"></a>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    <br>
+  </section>
+
+  <br>
+  <br>
+
+  <!-- Online visibility-->
+  <a name="onlinevisibility"></a>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <section>
+    <div>
+    <h3>Online visibility</h3>
+    <br>
+    <p>Ontdek de kracht van online visibility met onze expertise in SEO, SEA en Google Analytics. 
+    Wij zorgen ervoor dat uw website niet alleen gevonden wordt, maar ook effectief converteert. 
+    Van het optimaliseren van zoekwoorden tot het opzetten van winstgevende advertentiecampagnes, 
+    en het analyseren van gedetailleerde gebruikersstatistieken met Google Analytics, 
+    wij bieden een holistische aanpak om uw digitale aanwezigheid te versterken en uw bedrijf naar nieuwe hoogten te brengen. 
+    Bereid u voor op meer zichtbaarheid, meer verkeer en meer succes online.</p>
+    <br>
+    <br>
+    <h4>1. Strategiebepaling en Analyse</h4>
+    <p>Tijdens een intakegesprek bespreken we uw bedrijfsdoelen en doelgroep. 
+    We voeren een grondige SEO-audit en zoekwoordonderzoek uit om de huidige status van uw online aanwezigheid te begrijpen en kansen te identificeren.</p>
+    <br>
+    <h4>2. Website Optimalisatie</h4>
+    <p>Op basis van de auditresultaten optimaliseren we uw website. 
+    Dit omvat het verbeteren van on-page SEO-elementen (zoals meta-tags, content en interne links) en technische aspecten (zoals laadsnelheid en mobielvriendelijkheid).</p>
+    <br>
+    <h4>3. SEA Campagne Implementatie</h4>
+    <p>We ontwikkelen en lanceren gerichte SEA-campagnes, zoals Google Ads, om direct verkeer naar uw website te leiden. 
+    Dit omvat het schrijven van advertentieteksten, het instellen van targetingopties en het beheren van uw advertentiebudget.</p>
+    <br>
+    <h4>4. Content Creatie en Marketing</h4>
+    <p>We creëren waardevolle en relevante content om uw doelgroep aan te trekken en te engageren. 
+    Dit helpt niet alleen uw SEO-rangschikkingen te verbeteren, maar bouwt ook vertrouwen en autoriteit op binnen uw markt.</p>
+    <br>
+    <h4>5. Monitoring en Optimalisatie</h4>
+    <p>We monitoren continu de prestaties van uw website en campagnes met tools zoals Google Analytics. 
+    Op basis van deze data voeren we doorlopende optimalisaties uit en rapporteren we regelmatig over de voortgang en behaalde resultaten.</p>
+    <br>
+    <br>
+    <p>Met dit beknopte en effectieve stappenplan zorgen wij ervoor dat uw website beter gevonden wordt, meer verkeer genereert en uw bedrijfsdoelen bereikt. 
+    Bereid u voor op meer zichtbaarheid, verkeer en succes online.</p>
+    </div>
+  </section>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- Social media -->
+  <a name="socialmedia"></a>
+  <br>
+  <br>
+  <section>
+    <h3>Social media</h3>
+    <br>
+    <div class="row">
+    <div class="col-lg-6" style="padding-left: 6.5%;">
+    <p>In de dynamische wereld van social media helpen wij uw merk groeien met maatwerkoplossingen. 
+      Van het creëren van boeiende content tot het opzetten van effectieve campagnes en het monitoren van prestaties met geavanceerde analytics-tools, 
+      wij zorgen voor een krachtige online aanwezigheid.</p>
+      <br>
+      <br>
+      <h4>Doordachte Contentcreatie</h4>
+      <p>We maken boeiende content die uw merkverhaal vertelt en de aandacht van uw doelgroep vasthoudt.</p>
+      <br>
+      <h4>Effectieve Campagnes</h4>
+      <p>Onze gerichte social media campagnes verhogen zichtbaarheid en engagement op platforms zoals Facebook, Instagram, LinkedIn en YouTube.</p>
+      <br>
+      <h4>Gedetailleerde Analytics</h4>
+      <p>We monitoren en analyseren de prestaties van uw social media strategie met geavanceerde tools, en optimaliseren continu voor maximale resultaten.</p>
+      <br>
+      <h4>Betrokkenheid en Groei</h4>
+      <p>Wij bouwen een loyale community rondom uw merk door actief met uw volgers te communiceren en op feedback te reageren.
+      <br>
+      <br>
+      Klaar om uw social media game te versterken? Neem vandaag nog contact met ons op en laat uw merk schitteren online. 
+      Samen realiseren we groei en succes, één post en één campagne tegelijk.
+      </p>
+    </div>
+    <div class="col-lg-6">
+      <img src="Images/MyCreativePlan_OnzeDiensten_SocialMedia.jpg" alt="" style="width: 75%;">
+    </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section>
+
+    <!-- Wie zijn wij? -->
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section>
+      <img class="image-footer" src="images/Footer_Image_SocialIcons.png" alt="">
+    </section>
+
+    <!-- Footer with Contact Form -->
+    <a name="footer"></a>
+    <section class="footer">
+      <div  style="margin-left: -5%; margin-right: -10%;">
+        <br>
+        <br>
+        <h2>Wie zijn wij?</h2>
+        <p>
+        <br>
+        Welkom bij ‘My Creative Plan’! Mijn naam is Stefan en als ‘𝐃𝐢𝐠𝐢𝐭𝐚𝐥 𝐌𝐚𝐫𝐤𝐞𝐭𝐞𝐞𝐫 & 𝐂𝐫𝐞𝐚𝐭𝐢𝐯𝐞’ ga ik innovatief en probleemoplossend aan de slag in een veranderende digitale markt. 
+        Als marketeer blijf ik bouwen aan mezelf. Actief bijdragen aan projecten die nood hebben aan creatieve input is mijn professionele missie!
+        Door dagelijks de lat hoger te leggen en te werken aan mezelf blijft marketing mijn passie en datgene waar ik elke dag opnieuw voldoening uit haal.
+        </p>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+    </section>
+    <section class="footer row">
+    <div class="row">  
+      <div class="div-text col-lg-8">
+        <h2>Site map</h2>
+        <ul style="padding-left: 10%;">
+          <li><a class="sitemap-item" href="index.html">home</a></li>
+          <li><a class="sitemap-item" href="#onzediensten">onze diensten</a></li>
+          <li><a class="sitemap-item" href="#webdesign">webdesign</a></li>
+          <li><a class="sitemap-item" href="#onlinevisibility">online visibility</a></li>
+          <li><a class="sitemap-item" href="#socialmedia">social media</a></li>
+          <li><a class="sitemap-item" href="privacypolicy.html">privacypolicy</a></li>
+          <li><a class="sitemap-item" href="cookiepolicy.html">cookiepolicy</a></li>
+        </ul>
+        <br>
+        <br>
+        <p>Stefan Danssaert <br>mycreativeplan@hotmail.com <br>+32 (0)4 79 34 26 35 <br> BTW BE0774.916.073 </p>
+        <br>
+        <br>
+        <img class="footer_image" src="images/Footer_Logo_Full_960x320.png" alt="">
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+
+      <div class="contact-form col-lg-4">
+      <a name="contact"></a>
+      <h2>Contact Us</h2>
+      <form action="mailto:mycreativeplan@hotmail.com" method="post" enctype="text/plain">
+          <label for="name">Name:</label>
+          <input type="text" name="name" />
+
+          <label for="email">Email:</label>
+          <input type="email" name="email" />
+
+          <label for="message">Message:</label>
+          <textarea name="message"></textarea>
+
+          <input type="submit" value="Send Message" />
+      </form>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      </div>
+    </div>
+
+    <div class="div-text row">
+      <div class="col-lg-8">
+        <h2>Volg ons op LinkedIn</h2>
+        <p>Wij zijn gepassioneerd over het helpen van klanten om hun bedrijf meer zichtbaar te maken op de markt. 
+          We zorgen ervoor dat we up-to-date zijn met de nieuwste trends en technologieën op het gebied van marketing, zodat we onze klanten kunnen bieden wat ze nodig hebben om hun bedrijf naar een hoger niveau te tillen. 
+          <br>
+          <br>
+          Door ons te volgen op LinkedIn, kunt u op de hoogte blijven van onze nieuwste updates, tips en trucs, evenals nieuwe diensten die we aanbieden. 
+          We bieden ook regelmatig leuke en interactieve content waaruit u kunt leren over de nieuwste trends en technologieën in de markt. 
+        </p>
+        <br>
+        <br>
+      </div>
+  
+      <div class="div-text col-lg-4">
+        <img  class="footer-linkedin" src="images/MyCreativePlan_LinkedIn.png" alt="">
+
+        <br>
+        <br> 
+        <br>
+        <br>
+
+      </div> 
+    </div>
+    </section>
+  </section>
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
